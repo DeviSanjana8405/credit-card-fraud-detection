@@ -25,20 +25,6 @@ The dataset used in this project is the [Kaggle Credit Card Fraud Detection data
 - **Features:** 30 features (V1 to V28 are PCA-transformed components, Time, Amount)
 - **Target:** Binary classification (0 for non-fraud, 1 for fraud)
 
-## Project Structure
-
-.
-├── data/                           # Folder for storing the dataset
-├── notebooks/                      # Jupyter notebooks with analysis
-├── src/                            # Source code for model training and evaluation
-│   ├── data_preprocessing.py       # Scripts for preprocessing the data
-│   ├── model.py                    # Scripts for model training
-│   ├── evaluation.py               # Model evaluation scripts
-├── README.md                       # Project README
-├── requirements.txt                # Required Python packages
-└── fraud_detection.ipynb           # Main Jupyter notebook for the project
-
-
 ## Modeling Techniques
 
 The project applies the following steps:
